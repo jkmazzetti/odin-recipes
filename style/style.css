@@ -33,7 +33,9 @@ li{
     margin-top: 10px;
 }
 img {
-    margin-left: 32vw;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
     width:max(250px,30%);
 }
 .note{
