@@ -7,15 +7,18 @@ text-decoration: none;
 color: #555555;
 }
 h1{
+    font-family: 'Imperial Script', cursive;
     font-size: max(32px,3.5vw);
     background-color:  #d8d8d8;
     text-align: center;
 }
 h2{ 
+    font-family: 'Josefin Slab', serif;
     font-size: max(20px, 2.5vw);
     margin: 5vw;
 }
 p{
+    font-family: 'Josefin Slab', serif;
     font-size: max(20px,2vw);
     text-align: center;
 }
@@ -24,6 +27,7 @@ ul{
     margin-bottom: 50px;
 }
 ol{
+    font-family: 'Josefin Slab', serif;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -40,12 +44,14 @@ img {
     width:max(250px,30%);
 }
 .note{
+    font-family: 'Josefin Slab', serif;
     position: fixed;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
 }
 .center{
+    font-family: 'Josefin Slab', serif;
     list-style-position: inside;
     text-align: center;
     margin-right: 50px;
