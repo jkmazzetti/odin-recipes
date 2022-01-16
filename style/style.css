@@ -48,4 +48,6 @@ img {
 .center{
     list-style-position: inside;
     text-align: center;
+    margin-right: 50px;
 }
+    
