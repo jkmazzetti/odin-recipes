@@ -22,7 +22,6 @@ p{
 ul{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 35vw;
 }
 ol{
     margin-top: 50px;
@@ -30,6 +29,8 @@ ol{
 }
 li{
     font-size: max(20px, 1.85vw);
+    margin-left:auto;
+    margin-right:auto;
     margin-top: 10px;
 }
 img {
@@ -43,4 +44,8 @@ img {
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
+}
+.center{
+    list-style-position: inside;
+    text-align: center;
 }
