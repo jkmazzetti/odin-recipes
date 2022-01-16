@@ -7,16 +7,16 @@ text-decoration: none;
 color: #555555;
 }
 h1{
-    font-size: 3.5vw;
+    font-size: max(32px,3.5vw);
     background-color:  #d8d8d8;
     text-align: center;
 }
 h2{ 
-    font-size: 2.5vw;
+    font-size: max(20px, 2.5vw);
     margin: 5vw;
 }
 p{
-    font-size: 2vw;
+    font-size: max(15px,2vw);
     text-align: center;
 }
 ul{
@@ -29,18 +29,16 @@ ol{
     margin-bottom: 50px;
 }
 li{
-    font-size: 1.85vw;
+    font-size: max(20px, 1.85vw);
     margin-top: 10px;
 }
 img {
     margin-left: 32vw;
-    width:30%;
-    height:30%;
+    width:max(250px,30%);
 }
 .note{
     position: fixed;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
-    height: 25px;
 }
